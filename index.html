@@ -1,96 +1,146 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Ray Uhrig" />
+    <meta name="description" content="My Portfolio" />
+    <title>My Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Ray Uhrig">
-  <meta name="description" content="My Portfolio">
-  <title>My Portfolio</title>
-</head>
-
-<body>
-  <nav>
-
-    <header>
-      <div>
-      
-        <img src="assets/imgs/my_logo.png" alt="logo" style="width:300px;height:200px;">
-        <nav>
-          <a href="olive.html" target="_blank">My Designs</a>
-          <a href="about.html" target="_blank">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-  </nav>
-  <div>
-    <h1>
-      Hi, I'm Ray.
-    </h1>
-    <p>
-      <span>
-        <h3> I am a Junior UX Designer with a background in Operations, Training, and Support. Design and implementation have been a large part of my career and I'm eager to work with you! The user experience is a key aspect of everything I do. I
-          make sure this is put at the forefront of all my designs.</h3>
-      </span>
-    </p>
+  <body>
+    <style>
+      /* This style sets the width of all images to 100%: */
+      img {
+        width: 100%;
+      }
+    </style>
     <div>
-      <h3> My Designs </h3>
+      <meta charset="utf-8" />
+      <meta name="author" content="Ray Uhrig" />
+      <meta name="description" content="My Portfolio" />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <title>My Portfolio</title>
     </div>
-    <div>
-      <!-- open row that holds (2) columns for project -->
-      <div>
-        <!-- open first column (used for image) -->
-        <picture>
-          <source srcset="assets/imgs/olive/olive_logo1x.png" media="(max-width:767px)">
-          <img src="assets/imgs/olive/olive_logo2x.png" alt="olive logo">
-        </picture>
-      </div><!-- end first column -->
-      <div>
-        <!-- open second column (used for text) -->
-        <h3>Olive!</h3><!-- heading for the project -->
-        <p>
-          <!-- open paragraph -->
-          A health and fitness app that lets the user access workouts, a nutritional section, receive daily tips and store medical information.
-        </p><!-- end paragraph -->
-        <p>
-          <!-- open paragraph -->
-          This is an app that I created the concept for, conducted interviews and created user personas and then wireframes to prototypes and the final app.
-        </p><!-- end paragraph -->
-        <a href="">Learn More About Olive</a><!-- button or link label -->
-      </div><!-- end second column -->
-    </div><!-- end row that holds (2) columns for project -->
 
-    <footer>
-      <footer id="contact"></footer>
-      <h2>Get in Touch</h2>
-      <p>
-        Do you have a UX Design project you are needing help with? If so let me know. I love to set up a time to chat with you about it.
-        Call:
-        <a href=3031234567> 303.123.4567 </a>
-        or email me:
-      </p>
-      <div>
-        <a href="mailto:uhrig97@gmail.com">Email me</a>
-     
-      </div>
-      <div>
+    <nav>
+      <header>
         <div>
-          <!--Social Media Layout and Placeholders-->
-          <a href="https://www.linkedin.com/in/rayuhrig/" target="_blank">
-            <img src="assets/imgs/icons8-linkedin-48.png">
-          </a>
-          <a href="https://www.instagram.com/justaguynamedray/" target="_blank">
-            <img src="assets/imgs/icons8-instagram-48.png">
-          </a>
-          <a href="https://www.facebook.com/ray.uhrig/">
-            <img src="assets/imgs/icons8-facebook-48.png">
-          </a>
+          <img
+            src="assets/imgs/my_logo.png"
+            alt="logo"
+            style="width: 300px; height: 200px"
+          />
+          <nav>
+            <a href="olive.html" target="_blank">My Designs</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
         </div>
-        <p>Copyright Ray Uhrig 2022</p>
+      </header>
+    </nav>
+    <div>
+      <div id="about me">
+        <h1 class="default-heading">Hi, I'm Ray.</h1>
+        <p>
+          <span> </span>
+        </p>
+        <h3 class="customText">
+          I am a Junior UX Designer with a background in Operations, Training,
+          and Support. Design and implementation have been a large part of my
+          career and I'm eager to work with you! The user experience is a key
+          aspect of everything I do. I make sure this is put at the forefront of
+          all my designs.
+        </h3>
       </div>
-    </footer>
-  </div>
-</body>
+      <p></p>
+      <div>
+        <div id="my designs">
+          <h2 class="default-heading">My Designs</h2>
+        </div>
+        <div>
+          <!-- open row that holds (2) columns for project -->
+          <div>
+            <!-- open first column (used for image) -->
+            <picture>
+              <source
+                srcset="assets/imgs/olive/olive_logo1x.png"
+                media="(max-width:767px)"
+              />
+              <img src="assets/imgs/olive/olive_logo2x.png" alt="olive logo" />
+            </picture>
+          </div>
+          <!-- end first column -->
+          <div>
+            <!-- open second column (used for text) -->
+            <h2>Olive!</h2>
+            <!-- heading for the project -->
+            <p>
+              <!-- open paragraph -->
+              A health and fitness app that lets the user access workouts, a
+              nutritional section, receive daily tips and store medical
+              information.
+            </p>
+            <!-- end paragraph -->
+            <p>
+              <!-- open paragraph -->
+              This is an app that I created the concept for, conducted
+              interviews and created user personas and then wireframes to
+              prototypes and the final app.
+            </p>
+            <!-- end paragraph -->
+            <a href="olive.html" class="button olive">Learn More About Olive</a
+            ><!-- button or link label -->
+          </div>
+          <!-- end second column -->
+        </div>
+      </div>
 
+      <!-- end row that holds (2) columns for project -->
+
+      <footer>
+        <footer id="contact"></footer>
+        <h2>Get in Touch</h2>
+        <p>
+          Do you have a UX Design project you are needing help with? If so let
+          me know. I love to set up a time to chat with you about it. Call:
+          <a href="3031234567"> 303.123.4567 </a>
+          or email me:
+        </p>
+        <div>
+          <a href="mailto:uhrig97@gmail.com" class="button contact">
+            Email Me</a
+          >
+        </div>
+        <div>
+          <div class="social-icons">
+            <!--Social Media Layout and Placeholders-->
+            <a href="https://www.linkedin.com/in/rayuhrig/" target="_blank">
+              <img
+                src="assets/imgs/icons8-linkedin-48.png"
+                style="width: 75px; height: 75px"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/justaguynamedray/"
+              target="_blank"
+            >
+              <img
+                src="assets/imgs/icons8-instagram-48.png"
+                style="width: 75px; height: 75px"
+              />
+            </a>
+            <a href="https://www.facebook.com/ray.uhrig/">
+              <img
+                src="assets/imgs/icons8-facebook-48.png"
+                style="width: 75px; height: 75px"
+              />
+            </a>
+          </div>
+          <p>Copyright Ray Uhrig 2022</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-  background-color: #f78812;
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -41,7 +41,6 @@ h4 {
   background-color: #51050f;
   color: #ffffff;
 }
-
 .button.olive {
   background-color: #e02401;
   border: none;
@@ -54,6 +53,22 @@ h4 {
 }
 
 .button.olive:hover {
+  background-color: #51050f;
+  color: #ffffff;
+}
+
+.button.design {
+  background-color: #e02401;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.design:hover {
   background-color: #51050f;
   color: #ffffff;
 }
@@ -72,4 +87,8 @@ h4 {
 .button.resume:hover {
   background-color: #51050f;
   color: #ffffff;
+}
+
+.header {
+  background-color: #f78812;
 }

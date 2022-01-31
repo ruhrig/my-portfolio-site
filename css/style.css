@@ -57,19 +57,23 @@ h4 {
   color: #ffffff;
 }
 
+.container {
+  text-align: right;
+}
 .button.design {
-  background-color: #e02401;
+  background-color: #f78812;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: right;
   text-decoration: none;
   display: inline-block;
+  position: relative;
   font-size: 16px;
 }
 
 .button.design:hover {
-  background-color: #51050f;
+  background-color: #e02401;
   color: #ffffff;
 }
 
@@ -90,5 +94,5 @@ h4 {
 }
 
 .header {
-  background-color: #f78812;
+  background-color: #ab6d23;
 }

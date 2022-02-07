@@ -7,129 +7,159 @@
     <meta name="author" content="Ray Uhrig" />
     <meta name="description" content="My Portfolio" />
     <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
   </head>
 
   <body>
-    <nav>
-      <header>
-        <!--start of header section-->
-        <div class="header">
-          <img
-            src="assets/favicon/favicon.ico"
-            alt="logo"
-            style="width: 250px; height: 130px"
-          />
-          <nav>
-            <a href="olive.html" class="button design" target="_blank"
-              >My Designs</a
-            >
-            <a href="about.html" class="button design" target="_blank">About</a>
-            <a href="#contact" class="button design">Contact</a>
-          </nav>
-        </div>
-      </header>
-    </nav>
+    <header>
+      <!--start of header section-->
+      <div class="header">
+        <img
+          src="assets/favicon/favicon.ico"
+          alt="logo"
+          style="width: 250px; height: 130px"
+        />
+
+        <nav>
+          <a href="index.html" class="button design" target="_blank">Home</a>
+          <a href="home.html" class="button design" target="_blank"
+            >My Designs</a
+          >
+          <a href="about.html" class="button design" target="_blank"
+            >About Me</a
+          >
+          <a href="#contact" class="button design">Get In Touch</a>
+        </nav>
+      </div>
+    </header>
+
     <div>
       <div id="about me">
         <h1 class="default-heading">Hi, I'm Ray.</h1>
         <p>
           <span> </span>
         </p>
-        <h3 class="customText">
+        <h4 class="customText">
           I am a Junior UX Designer with a background in Operations, Training,
           and Support. Design and implementation have been a large part of my
           career and I'm eager to work with you! The user experience is a key
           aspect of everything I do. I make sure this is put at the forefront of
           all my designs.
-        </h3>
+        </h4>
       </div>
       <p></p>
       <div>
-        <div id="my designs">
-          <h2 class="default-heading">My Designs</h2>
-        </div>
-        <div>
+        <h2>My Designs</h2>
+
+        <div class="aboutcolumn">
           <!-- open row that holds (2) columns for project -->
-          <div>
+          <div class="aboutcolumn1">
             <!-- open first column (used for image) -->
             <picture>
-              <source
-                srcset="assets/imgs/olive/olive_logo1x.png"
-                media="(max-width:767px)"
+              <img
+                src="assets/imgs/olive/olive_logo1x.png"
+                alt="olive logo"
+                width="70%"
               />
-              <img src="assets/imgs/olive/olive_logo2x.png" alt="olive logo" />
             </picture>
           </div>
-          <!-- end first column -->
-          <div>
-            <!-- open second column (used for text) -->
-            <h2>Olive!</h2>
-            <!-- heading for the project -->
+
+          <div class="aboutcolumn2">
             <p>
-              <!-- open paragraph -->
               A health and fitness app that lets the user access workouts, a
               nutritional section, receive daily tips and store medical
-              information.
+              information. This is an app that I created the concept for,
+              conducted interviews and created user personas and then wireframes
+              to prototypes and the final app.
             </p>
-            <!-- end paragraph -->
-            <p>
-              <!-- open paragraph -->
-              This is an app that I created the concept for, conducted
-              interviews and created user personas and then wireframes to
-              prototypes and the final app.
-            </p>
-            <!-- end paragraph -->
-            <a href="olive.html" class="button olive">Learn More About Olive</a
-            ><!-- button or link label -->
+            <a href="olive.html" class="button olive">Learn More About Olive</a>
+            <p></p>
           </div>
-          <!-- end second column -->
         </div>
-      </div>
+        <div>
+          <div class="aboutcolumn">
+            <!-- open row that holds (2) columns for project -->
+            <div class="aboutcolumn1">
+              <!-- open first column (used for image) -->
+              <picture>
+                <img
+                  src="assets/imgs/Trivel/Trivel_600.png"
+                  alt="trivel logo"
+                  width="70%"
+                />
+              </picture>
+            </div>
+            <!-- end first column -->
 
+            <!-- open second column (used for text) -->
+            <div class="aboutcolumn2">
+              <p>
+                A trip and travel planner all in one. Trip + Travel = Trivel!
+                Use Trivel to plan your trip with a calendar feature and then
+                use it’s travel section to find cool and local places of
+                interest for you to check out on your trip. This is an app that
+                I am in the process of creating user personas and wireframes for
+                with a prototype as the ultimate goal.
+              </p>
+              <a href="trivel.html" class="button olive"
+                >Learn More About Trivel</a
+              >
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <!-- end second column -->
+      </div>
+      <p></p>
       <!-- end row that holds (2) columns for project -->
 
-      <footer>
-        <footer id="contact"></footer>
-        <h2>Get in Touch</h2>
-        <p>
-          Do you have a UX Design project you are needing help with? If so let
-          me know. I love to set up a time to chat with you about it. Call:
-          <a href="3031234567"> 303.123.4567 </a>
-          or email me:
-        </p>
-        <div>
-          <a href="mailto:uhrig97@gmail.com" class="button contact">
-            Email Me</a
-          >
-        </div>
-        <div>
-          <div class="social-icons">
-            <!--Social Media Layout and Placeholders-->
-            <a href="https://www.linkedin.com/in/rayuhrig/" target="_blank">
-              <img
-                src="assets/imgs/icons8-linkedin-48.png"
-                style="width: 75px; height: 75px"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/justaguynamedray/"
-              target="_blank"
-            >
-              <img
-                src="assets/imgs/icons8-instagram-48.png"
-                style="width: 75px; height: 75px"
-              />
-            </a>
-            <a href="https://www.facebook.com/ray.uhrig/">
-              <img
-                src="assets/imgs/icons8-facebook-48.png"
-                style="width: 75px; height: 75px"
-              />
-            </a>
+      <footer id="contact">
+        <nav>
+          <div class="footer1">
+            <h2>Get in Touch</h2>
           </div>
+          <div class="footer1">
+            <p style="margin: 20px">
+              Do you have a UX Design project you are needing help with? Let's
+              chat about it. Call me:
+              <a href="3031234567"> 303.123.4567 </a>
+              connect with me or email me directly:
+            </p>
+          </div>
+          <div>
+            <div class="footer1">
+              <a href="mailto:uhrig97@gmail.com" class="button contact">
+                Email Me</a
+              >
 
-          <p>Copyright Ray Uhrig 2022</p>
-        </div>
+              <!--Social Media Layout and Placeholders-->
+              <a href="https://www.linkedin.com/in/rayuhrig/" target="_blank">
+                <img
+                  src="assets/imgs/icons8-linkedin-48.png"
+                  style="width: 75px; height: 75px"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/justaguynamedray/"
+                target="_blank"
+              >
+                <img
+                  src="assets/imgs/icons8-instagram-48.png"
+                  style="width: 75px; height: 75px"
+                />
+              </a>
+              <a href="https://www.facebook.com/ray.uhrig/">
+                <img
+                  src="assets/imgs/icons8-facebook-48.png"
+                  style="width: 75px; height: 75px"
+                />
+              </a>
+            </div>
+            <div class="footer1">
+              <p>Copyright Ray Uhrig 2022</p>
+            </div>
+          </div>
+        </nav>
       </footer>
     </div>
   </body>

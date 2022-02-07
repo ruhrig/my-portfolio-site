@@ -4,6 +4,8 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #51050f;
+  padding: 20px;
+  margin: 10px;
 }
 
 h1 {
@@ -27,7 +29,7 @@ h4 {
 }
 
 .button.contact {
-  background-color: #e02401;
+  background-color: #f78812;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -38,11 +40,11 @@ h4 {
 }
 
 .button.contact:hover {
-  background-color: #51050f;
+  background-color: #e02401;
   color: #ffffff;
 }
 .button.olive {
-  background-color: #e02401;
+  background-color: #ab6d23;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -53,15 +55,28 @@ h4 {
 }
 
 .button.olive:hover {
-  background-color: #51050f;
+  background-color: #e02401;
   color: #ffffff;
 }
 
-.container {
-  text-align: right;
+.button.trivel {
+  background-color: #ab6d23;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
+
+.button.trivel:hover {
+  background-color: #e02401;
+  color: #ffffff;
+}
+
 .button.design {
-  background-color: #f78812;
+  background-color: #ab6d23;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -95,4 +110,91 @@ h4 {
 
 .header {
   background-color: #ab6d23;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.footer1 {
+  display: flex;
+  justify-content: center;
+  background-color: #ab6d23;
+  align-items: center;
+}
+
+.twoColumn {
+  width: 48%;
+  display: inline-grid;
+  background-color: #f78812;
+  padding: 10px;
+  justify-content: center;
+  height: 200;
+}
+
+.aboutcolumn1 {
+  width: 48%;
+  background-color: #ffffff;
+}
+
+.aboutcolumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutcolumn2 {
+  background-color: #ffffff;
+  width: 48%;
+  padding: 30px;
+  margin: 55px;
+}
+
+.column24 {
+  float: left;
+  width: 52%;
+  padding: 10px;
+  height: 300px;
+}
+
+.column25 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.side {
+  flex: 45%;
+  background-color: #f78812;
+  padding: 20px;
+  margin: 10px;
+}
+
+.main {
+  flex: 45%;
+  background-color: #f78812;
+  padding: 20px;
+  margin: 10px;
+}
+
+

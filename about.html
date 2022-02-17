@@ -8,20 +8,22 @@
     <meta name="description" content="My Portfolio" />
 
     <title>My Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
   </head>
 
   <body>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <nav>
       <header>
         <!--start of header section-->
         <div class="header">
-          <img
-            src="assets/favicon/favicon.ico"
-            alt="logo"
-            style="width: 250px; height: 130px"
-          />
+          <a href="index.html">
+            <img
+              src="assets/favicon/favicon.ico"
+              alt="logo"
+              style="width: 250px; height: 130px"
+            />
+          </a>
 
           <nav>
             <a href="index.html" class="button design" target="_self">Home</a>
@@ -37,67 +39,75 @@
       </header>
     </nav>
     <nav>
-      <div class="aboutcolumn">
-        <!-- open row that holds (2) columns for project -->
-        <div class="aboutcolumn1">
-          <!-- open first column (used for image) -->
-          <picture>
-            <img src="assets/imgs/ray1.png" alt="ray" width="100%" />
-          </picture>
-        </div>
-        <!-- end first column -->
+      <div id="work-project" class="maxWidth">
+        <div class="row">
+          <!-- open row that holds (2) columns for project -->
+          <div class="column col-sm-100 col-md-50">
+            <div class="imgwrapper">
+              <!-- open first column (used for image) -->
+              <picture>
+                <img src="assets/imgs/ray1.png" alt="ray" width="100%" />
+              </picture>
+            </div>
+          </div>
+          <!-- end first column -->
 
-        <!-- open second column (used for text) -->
-        <div class="aboutcolumn2">
-          <p>
-            <!-- open paragraph -->
-            Hi, I'm Ray. I am a Junior UX Designer with a background in
-            Operations, Training, and Support. Design and implementation have
-            been a large part of my career and I'm eager to work with you! The
-            user experience is a key aspect of everything I do. I make sure this
-            is put at the forefront of all my designs. I'm based out of colorful
-            Denver Colorado, where I live with my wife and two daughters, three
-            dogs, two horses, my jeep, and my restored vintage Red Dale camper.
-            In summer we pack everyone up and move to a Minnesota lake cabin
-            where we enjoy fishing, water sports, and the occasional game of
-            Bingo.
-          </p>
-          <!-- end paragraph -->
-          <p>
-            <a
-              href="assets/files/Ray_Uhrig_Resume_2022.pdf"
-              class="button resume"
-            >
-              My Resume</a
-            >
-          </p>
+          <!-- open second column (used for text) -->
+          <div class="column col-sm-100 col-md-50">
+            <div class="descWrapper">
+              <p>
+                <!-- open paragraph -->
+                <h2> Hi, I'm Ray. </h2>
+                I am a Junior UX Designer with a background in
+                Operations, Training, and Support. Design and implementation
+                have been a large part of my career and I'm eager to work with
+                you! The user experience is a key aspect of everything I do. I
+                make sure this is put at the forefront of all my designs. I'm
+                based out of colorful Denver Colorado, where I live with my wife
+                and two daughters, three dogs, two horses, my jeep, and my
+                restored vintage Red Dale camper. In summer we pack everyone up
+                and move to a Minnesota lake cabin where we enjoy fishing, water
+                sports, and the occasional game of Bingo.
+              </p>
+              <!-- end paragraph -->
+              <p>
+                <a href="assets/files/Ray_Uhrig_Resume_2022.pdf" class="button">
+                  My Resume</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column1 col-sm-100 col-md-50">
+            <div class="descWrapper">
+              <h2>Skills</h2>
+              <li>Develop mockups, user flows, wireframing and prototyping</li>
+              <li>Use of visual design and design software</li>
+              <li>Development of user personas</li>
+              <li>
+                Conduct competitive analysis, user research and usability
+                testing
+              </li>
+              <li>Collaboration and teamwork</li>
+              <li>Able to effectively communicate and present</li>
+            </div>
+          </div>
+          <div class="column2 col-sm-100 col-md-50">
+            <div class="descWrapper">
+              <h2>Tools</h2>
+              <li>Balsamiq</li>
+              <li>Sketch</li>
+              <li>Invision</li>
+              <li>Replict</li>
+              <li>Atom</li>
+              <li>Visual Studio Code</li>
+              <li>Git</li>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
-    <div class="row">
-      <div class="side">
-        <h2>Skills</h2>
-        <li>Develop mockups, user flows, wireframing and prototyping</li>
-        <li>Use of visual design and design software</li>
-        <li>Development of user personas</li>
-        <li>
-          Conduct competitive analysis, user research and usability testing
-        </li>
-        <li>Collaboration and teamwork</li>
-        <li>Able to effectively communicate and present</li>
-      </div>
-      <div class="main">
-        <h2>Tools</h2>
-        <li>Balsamiq</li>
-        <li>Sketch</li>
-        <li>Invision</li>
-        <li>Replict</li>
-        <li>Atom</li>
-
-        <p></p>
-      </div>
-    </div>
-
     <!--Social Media Layout and Placeholders-->
 
     <footer id="contact">
@@ -115,9 +125,7 @@
         </div>
         <div>
           <div class="footer1">
-            <a href="mailto:uhrig97@gmail.com" class="button contact">
-              Email Me</a
-            >
+            <a href="mailto:uhrig97@gmail.com" class="button"> Email Me</a>
 
             <!--Social Media Layout and Placeholders-->
             <a href="https://www.linkedin.com/in/rayuhrig/" target="_blank">

@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/01b7c8dea1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <meta name="author" content="Ray Uhrig" />
     <meta name="description" content="My Portfolio" />
     <title>My Portfolio</title>
@@ -11,27 +15,52 @@
   </head>
 
   <body>
+    <!--Header-->
     <header>
-      <!--start of header section-->
-      <div class="header">
-        <a href="index.html">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
           <img
             src="assets/favicon/favicon.ico"
             alt="logo"
-            style="width: 250px; height: 130px"
+            style="width: 150px; height: 75px"
           />
-        </a>
-
-        <nav>
-          <a href="index.html" class="button design" target="_self">Home</a>
-          <a href="home.html" class="button design" target="_self"
-            >My Designs</a
-          >
-          <a href="about.html" class="button design" target="_self">About Me</a>
-          <a href="#contact" class="button design">Get In Touch</a>
-        </nav>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" class="button design" target="_self"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="home.html" class="button design" target="_self"
+                  >My Designs</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="button design" target="_self"
+                  >About Me</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="button design" target="_self"
+                  >Get In Touch</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                >
+                  <i class="fas fa-bars"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
+    <!--End Header-->
 
     <svg
       id="about-picture"

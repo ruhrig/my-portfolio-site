@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/01b7c8dea1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <meta name="author" content="Ray Uhrig" />
     <meta name="description" content="My Portfolio" />
-
     <title>My Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
   </head>
 
   <body>
-    <link rel="stylesheet" href="css/styles.css" />
-    <nav>
-      <header>
-        <!--start of header section-->
-        <div class="header">
-          <a href="index.html">
-            <img
-              src="assets/favicon/favicon.ico"
-              alt="logo"
-              style="width: 250px; height: 130px"
-            />
-          </a>
-
+    <!--Header-->
+    <header>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <img
+            src="assets/favicon/favicon.ico"
+            alt="logo"
+            style="width: 150px; height: 75px"
+          />
           <nav>
-            <a href="index.html" class="button design" target="_self">Home</a>
-            <a href="home.html" class="button design" target="_self"
-              >My Designs</a
-            >
-            <a href="about.html" class="button design" target="_self"
-              >About Me</a
-            >
-            <a href="#contact" class="button design">Get In Touch</a>
+            <ul>
+              <li>
+                <a href="index.html" class="button design" target="_self"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="home.html" class="button design" target="_self"
+                  >My Designs</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="button design" target="_self"
+                  >About Me</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="button design" target="_self"
+                  >Get In Touch</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                >
+                  <i class="fas fa-bars"></i>
+                </a>
+              </li>
+            </ul>
           </nav>
         </div>
-      </header>
-    </nav>
+      </div>
+    </header>
+    <!--End Header-->
+  
     <div>
       <p></p>
       <div id="work-project" class="maxWidth">
@@ -99,7 +124,7 @@
                   that I am in the process of creating user personas and
                   wireframes for with a prototype as the ultimate goal.
                 </p>
-                <a href="trivelsvg.html" class="button"
+                <a href="trivel.html" class="button"
                   >Learn More About Trivel</a
                 >
               </div>
@@ -109,8 +134,9 @@
       </div>
       <!-- end second column -->
     </div>
-
+    
     <footer id="contact">
+    
       <nav>
         <div class="footer1">
           <h2>Get in Touch</h2>
@@ -159,5 +185,15 @@
         </div>
       </nav>
     </footer>
-  </body>
+  
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/scripts.js"></script>
+</body>
 </html>
+
+
